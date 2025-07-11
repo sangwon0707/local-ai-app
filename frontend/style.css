@@ -1,0 +1,115 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* 너비 증가 */
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #5a67d8;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input, select, button {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button {
+    background-color: #5a67d8;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #434190;
+}
+
+#result {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #eee;
+    border-radius: 4px;
+}
+
+/* 운세 결과 표시 스타일 */
+.fortune-result-display {
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.fortune-result-display h2 {
+    color: #5a67d8;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.fortune-result-display h3 {
+    color: #434190;
+    margin-top: 1.5rem;
+    margin-bottom: 0.8rem;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 0.5rem;
+}
+
+.fortune-section {
+    margin-bottom: 1rem;
+}
+
+.user-info-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+.user-info-table th, .user-info-table td {
+    border: 1px solid #ddd;
+    padding: 0.8rem;
+    text-align: left;
+}
+
+.user-info-table th {
+    background-color: #f2f2f2;
+    width: 35%;
+}
+
+.user-info-table td {
+    background-color: #fff;
+}
+
+.fortune-result-display p {
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}

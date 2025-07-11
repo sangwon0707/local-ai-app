@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+local-ai-app/  # 가상 환경 디렉토리 (현재 프로젝트 구조에서 확인됨)
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+.env
+.flaskenv
+.venv
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+dist/
+build/
+*.egg-info/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Downloaded model files (e.g., from Hugging Face)
+*.gguf
+*.safetensors
+*.bin
+
+# Specific files from your project that are likely temporary or generated
+스크린샷*.png

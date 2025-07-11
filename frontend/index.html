@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI 운세 서비스</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>AI 운세 서비스</h1>
+        <form id="fortune-form">
+            <label for="name">이름:</label>
+            <input type="text" id="name" value="홍길동" required>
+
+            <label for="birthdate">생년월일:</label>
+            <input type="date" id="birthdate" value="1990-01-01" required>
+
+            <label for="birthtime">태어난 시간 (시):</label>
+            <input type="number" id="birthtime" value="10" min="0" max="23" required>
+
+            <label for="gender">성별:</label>
+            <select id="gender" required>
+                <option value="male" selected>남성</option>
+                <option value="female">여성</option>
+            </select>
+
+            <label for="mbti">MBTI:</label>
+            <select id="mbti" required>
+                <option value="ISTJ">ISTJ</option>
+                <option value="ISFJ">ISFJ</option>
+                <option value="INFJ">INFJ</option>
+                <option value="INTJ">INTJ</option>
+                <option value="ISTP">ISTP</option>
+                <option value="ISFP">ISFP</option>
+                <option value="INFP">INFP</option>
+                <option value="INTP">INTP</option>
+                <option value="ESTP">ESTP</option>
+                <option value="ESFP">ESFP</option>
+                <option value="ENFP" selected>ENFP</option>
+                <option value="ENTP">ENTP</option>
+                <option value="ESTJ">ESTJ</option>
+                <option value="ESFJ">ESFJ</option>
+                <option value="ENFJ">ENFJ</option>
+                <option value="ENTJ">ENTJ</option>
+            </select>
+
+            <button type="submit">오늘의 운세 보기</button>
+        </form>
+        <div id="result" style="display: none;"></div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
