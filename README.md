@@ -29,7 +29,7 @@
 
 ## 🖼️ 미리보기
 
-![스크린샷](screenshot.png)
+<img src="screenshot.png" alt="스크린샷" width="50%">
 
 
 
